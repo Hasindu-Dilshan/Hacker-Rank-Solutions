@@ -1,8 +1,3 @@
-#include <bits/stdc++.h>
-#include <sstream>
-#include <iostream>
-
-using namespace std;
 
 string timeConversion(string s) {
     int h, m, sec;
