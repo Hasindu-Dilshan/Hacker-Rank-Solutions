@@ -31,10 +31,8 @@ class Result {
         
         float time = ((float)delta_x / delta_v) * -1;
         
-        for(int t = 0; t <= time; t++) {
-            if((float)t == time)
-                return "YES";
-        }
+        if((float)t == time)
+            return "YES";
         
         return "NO";
     }
